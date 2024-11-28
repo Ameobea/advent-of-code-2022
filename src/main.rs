@@ -1,6 +1,7 @@
 #![feature(array_chunks, array_windows)]
 
 mod day1;
+mod day10;
 mod day2;
 mod day3;
 mod day4;
@@ -8,6 +9,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 
 fn main() {
   day1::solve();
@@ -17,5 +19,7 @@ fn main() {
   day5::solve();
   day6::solve();
   day7::solve();
-  day8::solve()
+  day8::solve();
+  day9::solve();
+  day10::solve();
 }
